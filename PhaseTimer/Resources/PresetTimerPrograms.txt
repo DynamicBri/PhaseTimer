@@ -1,0 +1,43 @@
+[New Timer Program 1]
+Description: This is a timer program for testing purposes.
+Intervals: 1 1 1
+TimerEndAction: Stop
+AmbienceVolume: 100
+AlarmVolume: 100
+AlarmPath: Beep Long.mp3
+
+[2-Minute Base]
+Intervals: 16 4 2 4 6 8 10 10 2 2 2 2 2 2 2 2 2 2
+AlarmPath: Beep Short.mp3
+Locked: True
+
+[2-Minute Base]
+Intervals: 16 4 2 4 6 8 10 10 2 2 2 2 2 2 2 2 2 2
+AlarmPath: Beep Short.mp3
+Locked: True
+
+[3-Minute Base]
+Intervals: 16 6 3 6 9 12 15 15 3 3 3 3 3 3 3 3 3 3
+AlarmPath: Beep Short.mp3
+Locked: True
+
+[4-Minute Base]
+Intervals: 16 8 4 8 12 16 20 20 4 4 4 4 4 4 4 4 4 4
+AlarmPath: Beep Short.mp3
+Locked: True
+
+[5-Minute Base]
+Intervals: 16 10 5 10 15 20 25 25 5 5 5 5 5 5 5 5 5 5
+AlarmPath: Beep Short.mp3
+Locked: True
+
+[6-Minute Base]
+Intervals: 16 12 6 12 18 24 30 30 6 6 6 6 6 6 6 6 6 6
+AlarmPath: Beep Short.mp3
+Locked: True
+
+[Ramp]
+Intervals: 8 4 8 12 16 20 20 6
+AlarmPath: Beep Short.mp3
+TimerEndAction: RepeatLastInterval
+Locked: True
