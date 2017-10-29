@@ -30,13 +30,18 @@ After the last interval elapses, the timer loops back to the start of the last i
 ## Importing Audio
 Audio is “imported” by using the import buttons or by drag dropping files onto the file path textboxes. Upon import, the audio is immediately copied into the timer program directory — effectively making it an embedded resource. This new copy is what is referenced by the timer henceforth. Over time, audio files may accumulate in the timer program folder, in which case, it may be desirable to use the “Clean Timer Program Folder” tool. This tool will remove unreferenced audio files in the active timer program’s folder.
 Other important points:
+
 •	MP3s, WAVs, and FLACs are the supported file types.
+
 •	The path and validity of audio files are not checked until “Play” is clicked.
  
 ## Volume Controls
 The volume control dialog allows one to adjust the amplification and balance of the alarm and ambience playback. The volume controls work as one would expect. The balance controls adjust the left/right balance of the audio playback.
+
 •	-100 is the minimum and will cause playback to come through the left speaker only.
+
 •	0 is center balance (default) and will cause playback to come through both speakers normally.
+
 •	100 is the maximum and will cause playback to come through the right speaker only.
 The volume settings may be adjusted while the timer is active.
  
